@@ -14,8 +14,10 @@
 ##
 ## -----------------------------
 
+
 # Imports
 library(data.table)
+
 
 # Function
 Merge_outputs <- function(
@@ -33,6 +35,7 @@ Merge_outputs <- function(
   ##  CHANGES :
   ##    * Write two .txt files in the filePath_to_save_merged_outputs folder
   ## ------------
+  
   
   # Get the vector of all file names in the "filePath_to_outputs" folder
   outputs.files <- list.files(path = filePath_to_outputs)
